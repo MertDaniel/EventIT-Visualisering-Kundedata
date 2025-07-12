@@ -206,7 +206,7 @@ with tabs[0]:
 
     # ───── Top 10 Betalte Frakturer
     with k_tabs[5]:
-        st.subheader("Top 10 Betalte Frakturer")
+        st.subheader("Top 10 Betalte Fakturaer")
         top10 = dff.nlargest(10, "Frakturer")
         fig = px.bar(top10, x="Name", y="Frakturer", labels={"Frakturer": "DKK"}, hover_data=["Frakturer"])
         fig.update_layout(xaxis_tickangle=-45, height=500)
