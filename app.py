@@ -120,7 +120,7 @@ with tabs[0]:
             "Kontrakt-fordeling",
             "Abonnements-growth",
             "Gratis vs Betalt",
-            "Betalte Frakturer",
+            "Betalte Fakturaer",
         ]
     )
 
